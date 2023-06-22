@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Pokémon - Our blog</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div>
-                <a href="../index.html" target="_self"><img src="/images/pokemon_logo.svg" alt="Pokémon logo"></a>
+            <div class="navbar__img">
+                <a href="../index.html" target="_self"><img class="logo--sm" src="../images/pokemon_logo.svg" alt="Pokémon logo"></a>
             </div>
-            <ul class="nav-items">
-                <li><a href="../index.html" target="_self">Home</a></li>
-                <li><a href="buy-cards.html" target="_self">Buy Cards</a></li>
-                <li><a href="#" target="_self">Our Blog</a></li>
-            </ul>
-            <button>Dark Mode</button>
-            <div class="menu-container" onclick="">
+            <div class="navbar__items">
+                <a href="../index.html" target="_self">Home</a>
+                <a href="buy-cards.html" target="_self">Buy Cards</a>
+                <a class="active__link" href="#" target="_self">Our Blog</a>
+            </div>
+            <button class="dark_mode__btn">Dark Mode</button>
+            <div class="navbar__menu" onclick="">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -33,7 +34,7 @@
             </header>
             <section>
                 <figure>
-                    <img src="/images/pokemon-poster.jpg" alt="Pokémon poster">
+                    <img src="../images/pokemon-poster.jpg" alt="Pokémon poster">
                 </figure>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam vitae exercitationem, architecto temporibus nam perspiciatis in est sed ullam voluptates recusandae. Perspiciatis minima quas voluptate. Consectetur perspiciatis obcaecati quae?
                 Neque quia odit amet ad ipsum sequi rerum? Exercitationem tempore at facilis! Quaerat, nam voluptate error necessitatibus dolores ullam recusandae, maxime vitae dicta eius ut illum amet excepturi. Mollitia, maxime.
@@ -98,45 +99,51 @@
     </main>
 </body>
 <footer>
-    <ul>
-        <li>
+    <div class="footer_navbar">
+        <div class="footer_navbar--logos">
             <figure>
-                <a href="../index.html" target="_self"><img src="/images/pokemon_logo.svg" alt="Pokémon logo"></a>
+                <a href="../index.html" target="_self"><img class="logo--sm" src="../images/pokemon_logo.svg" alt="Pokémon logo"></a>
             </figure>
             <p>Our vision is to provide convenience and help increase your sales business.</p>
-            <ul class="social-media">
-                <li><a href="" target="_blank"></a></li>
-                <li><a href="" target="_blank"></a></li>
-                <li><a href="" target="_blank"></a></li>
+            <ul class="social_media">
+                <li><a href="" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
             </ul>
-        </li>
-        <li>
-            <h3>About</h3>
-            <ul>
-                <li>How it works</li>
-                <li>Featured</li>
-                <li>Partnership</li>
-                <li>Business Relation</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Community</h3>
-            <ul>
-                <li>Events</li>
-                <li>Blog</li>
-                <li>Podcast</li>
-                <li>Invite a friend</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Socials</h3>
-            <ul>
-                <li>Discord</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-            </ul>
-        </li>
-    </ul>
+        </div>
+        <div class="footer_navbar__items">
+            <table>
+                <thead>
+                    <tr>
+                        <th>About</th>
+                        <th>Community</th>
+                        <th>Socials</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>How it works</td>
+                        <td>Events</td>
+                        <td>Discord</td>
+                    </tr>
+                    <tr>
+                        <td>Featured</td>
+                        <td>Blog</td>
+                        <td>Instagram</td>
+                    </tr>
+                    <tr>
+                        <td>Partnership</td>
+                        <td>Podcast</td>
+                        <td>Twitter</td>
+                    </tr>
+                    <tr>
+                        <td>Business Relation</td>
+                        <td>Invite a friend</td>
+                        <td>Facebook</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </footer>
 </html>
