@@ -2,6 +2,9 @@
     "cards": [
         {
             "name": "Bulbasaur",
+            "type": [
+                "Grass","Poison"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/82a10630-f5c4-4f7f-8478-28ee09f08af8/Bulbasaur_0.jpg",
             "cardImageLocal": "../images/cards/0001_bulbasaur.jpg",
             "powerLevel": 10,
@@ -10,6 +13,9 @@
         },
         {
             "name": "Ivysaur, Charmeleon & Wartortle",
+            "type": [
+                "Grass","Poison","Fire","Water"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/75127f8c-d135-4c65-a34a-0106e8a561c2/Ivysaur%20%20Charmeleon%20%20Wartortle_1.jpg",
             "cardImageLocal": "../images/cards/0002_0003_0004_ivysaur_charmeleon_wartortle.jpg",
             "powerLevel": 10,
@@ -18,6 +24,9 @@
         },
         {
             "name": "Venusaur",
+            "type": [
+                "Grass","Poison"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/bbf0cea8-6d07-4b2b-a527-c381f88621fe/Venusaur_0.jpg",
             "cardImageLocal": "../images/cards/0003_venusaur.jpg",
             "powerLevel": 10,
@@ -26,6 +35,9 @@
         },
         {
             "name": "Charmander",
+            "type": [
+                "Fire"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/1d0c7d7e-ec38-4a6e-bf81-2ca8a3d35bb9/Charmander_2.png",
             "cardImageLocal": "../images/cards/0004_charmander.jpg",
             "powerLevel": 10,
@@ -34,6 +46,9 @@
         },
         {
             "name": "Charizard",
+            "type": [
+                "Fire","Flying"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/2c329007-3819-44df-90cf-88fe63df8c82/Charizard_2.png",
             "cardImageLocal": "../images/cards/0006_charizard.jpg",
             "powerLevel": 10,
@@ -42,6 +57,9 @@
         },
         {
             "name": "Squirtle",
+            "type": [
+                "Water"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/41174528-7889-441a-9064-fff36c6483c8/Squirtle_2.jpg",
             "cardImageLocal": "../images/cards/0007_squirtle.jpg",
             "powerLevel": 10,
@@ -50,6 +68,9 @@
         },
         {
             "name": "Blastoise",
+            "type": [
+                "Water"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/1842a99d-df95-4919-980d-3f9c497c4243/Blastoise_0.jpg",
             "cardImageLocal": "../images/cards/0009_blastoise.jpg",
             "powerLevel": 10,
@@ -58,6 +79,9 @@
         },
         {
             "name": "Pikachu",
+            "type": [
+                "Electric"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/7acfb94e-2201-4f5f-aa51-64198f21adfb/Pikachu_1.png",
             "cardImageLocal": "../images/cards/0025_pikachu.jpg",
             "powerLevel": 10,
@@ -66,6 +90,9 @@
         },
         {
             "name": "Pikachu couple",
+            "type": [
+                "Electric"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/d5a7cb6a-395c-44d9-bda7-5e6b3ae074e2/Pikachu%20couple_B2_0.png",
             "cardImageLocal": "../images/cards/0025_pikachu_couple.jpg",
             "powerLevel": 10,
@@ -74,6 +101,9 @@
         },
         {
             "name": "Vulpix",
+            "type": [
+                "Fire"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/74a88952-9bca-412a-91d5-633df35aadc6/Vulpix_2.png",
             "cardImageLocal": "../images/cards/0037_vulpix.jpg",
             "powerLevel": 10,
@@ -82,6 +112,9 @@
         },
         {
             "name": "Ninetales",
+            "type": [
+                "Fire"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/8a5632bc-a358-4327-a7dd-85c18027ada4/Ninetales_2.png",
             "cardImageLocal": "../images/cards/0038_ninetales.jpg",
             "powerLevel": 10,
@@ -90,6 +123,9 @@
         },
         {
             "name": "Psyduck",
+            "type": [
+                "Water"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/fd78c15d-eaf2-42fc-9942-9a64cabaf471/Psyduck_2.jpg",
             "cardImageLocal": "../images/cards/0054_psyduck.jpg",
             "powerLevel": 10,
@@ -98,6 +134,9 @@
         },
         {
             "name": "Eevee",
+            "type": [
+                "Normal"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/22115322-c1d7-49df-970c-da4bb72ccd92/Eevee2_2.jpg",
             "cardImageLocal": "../images/cards/0133_eevee.jpg",
             "powerLevel": 10,
@@ -106,6 +145,9 @@
         },
         {
             "name": "Flareon, Jolteon & Vaporeon",
+            "type": [
+                "Fire","Electric","Water"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/a93e1eb8-476a-461c-a8af-75540965bb30/Flareon%20%20Jolteon%20Vaporeon_1.jpg",
             "cardImageLocal": "../images/cards/0134_0135_0136_flareon_jolteon_vaporeon.jpg",
             "powerLevel": 10,
@@ -114,6 +156,9 @@
         },
         {
             "name": "Mew",
+            "type": [
+                "Psychic"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/5d89cbdd-4e8e-46c7-a1e4-72d3c3864fc1/Mew_2.png",
             "cardImageLocal": "../images/cards/0151_mew.jpg",
             "powerLevel": 10,
@@ -122,6 +167,9 @@
         },
         {
             "name": "Umbreon",
+            "type": [
+                "Dark"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/05a3d1bf-37d2-46ac-b650-3350ca94a6dc/Umbreon_2.jpg",
             "cardImageLocal": "../images/cards/0197_umbreon.jpg",
             "powerLevel": 10,
@@ -130,6 +178,9 @@
         },
         {
             "name": "Teddiursa",
+            "type": [
+                "Normal"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/7ad9ad58-9150-4cd2-9650-0f3e62c9cbf0/Teddiursa_2.jpg",
             "cardImageLocal": "../images/cards/0216_teddiursa.jpg",
             "powerLevel": 10,
@@ -138,6 +189,9 @@
         },
         {
             "name": "Mudkip",
+            "type": [
+                "Water"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/e4720490-0a10-4a99-a225-b5b4bea7ff58/Mudkip_2.png",
             "cardImageLocal": "../images/cards/0258_mudkip.jpg",
             "powerLevel": 10,
@@ -146,6 +200,9 @@
         },
         {
             "name": "Minccino",
+            "type": [
+                "Normal"
+            ],
             "cardImage": "https://files.cults3d.com/uploaders/14388486/illustration-file/93ce2257-632e-4164-a3bc-9d46783b1ce9/Minccino_0.png",
             "cardImageLocal": "../images/cards/0572_minccino.jpg",
             "powerLevel": 10,
