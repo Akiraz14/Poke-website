@@ -38,7 +38,7 @@ data.cards.forEach((result, idx) => {
     <div class="card ${pokeTypes}">
         <div class="card_header" id="heading-${idx}">
             <p><b>${result.name}</b></p>
-            <button class="simple__btn heart__btn"><i class="fa-regular fa-heart fa-xl"></i></button>
+            <button class="heart__btn"><i class="fa-regular fa-heart fa-xl"></i></button>
         </div>
         <figure>
             <img src="${result.cardImage}" alt="dog">
@@ -80,7 +80,4 @@ tabs.forEach((tab)=>{
       card.style.display = "block";
     });
   })
-})
-
-
-
+});

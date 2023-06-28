@@ -9,6 +9,8 @@
     --veryLightBlue: hsl(212, 29%, 90%);
     --lightBlue: hsl(213, 58%, 45%);
     --mediumBlue: hsl(213, 53%, 36%);
+    --veryDarkBlue: hsl(220, 26%, 14%);
+
 
     --primary-font: "DM+Sans", sans-serif;
     --secundary-font: "Overpass", sans-serif;
@@ -64,6 +66,7 @@ html {
 
 .simple__btn {
     border: none;
+    padding: 10px 20px;
     background: none;
 }
 
@@ -72,8 +75,8 @@ html {
 }
 
 .white__btn {
-    padding: 10px 20px;
     border: none;
+    padding: 10px 20px;
     color: var(--lightBlue);
     background-color: var(--white);
     border-radius: 4px;
@@ -105,6 +108,12 @@ html {
     color: var(--lightBlue);
     background-color: var(--white);
     border-radius: 4px;
+}
+
+.heart__btn {
+    border: none;
+    padding: 10px 20px;
+    background: none;
 }
 
 .heart__btn:hover {
@@ -307,6 +316,7 @@ main {
     align-items: center;
 }
 .card_header,.card_footer P {
+    color: var(--black);
     font-size:larger;
 }
 
@@ -338,6 +348,39 @@ main {
     color: var(--black);
     font-weight: bold;
     border-bottom: 3px solid var(--black);
+}
+
+.dark-mode {
+    background-color: var(--veryDarkBlue);
+    color: var(--white);
+}
+
+.dark-mode .dark_mode__btn {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.dark-mode .simple__btn {
+    background-color: var(--white);
+    border-radius: 4px;
+}
+
+.dark-mode .article_title h1 {
+    color: var(--white);
+}
+
+.dark-mode .tabs li {
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.dark-mode .tabs li:hover {
+    color: var(--white);
+}
+
+.dark-mode .tabs li.active {
+    color: var(--white);
+    border-bottom: 3px solid var(--white);
 }
 
 /* Extra small devices (phones, 600px and down) */
